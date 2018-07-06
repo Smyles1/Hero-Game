@@ -59,6 +59,8 @@ function _draw()
 	map(0,0,0,0,10000,10000)
 	
 	
+	print "hi"
+	
 	
 	shoot() --shooting function
 	collision()--calls collisions
