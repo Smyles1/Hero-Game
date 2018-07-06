@@ -44,23 +44,13 @@ end
 function _draw()
 	cls()
 	
-	
-	
-	
-	
-	
 	--key stuff in dungeon
 	if key==false and screenx==768 and screeny==256 and player.y==32 and player.x>=24 and player.x<=40 then
 	mset (100,36,31)
 	key = true
 	end
 	
-	
 	map(0,0,0,0,10000,10000)
-	
-	
-	print "hi"
-	
 	
 	shoot() --shooting function
 	collision()--calls collisions
@@ -74,7 +64,7 @@ function _draw()
 	end
 	
 	
-	--locked door opening thing
+	--locked door opening thing (change
 	if screenx==768 and screeny==128 and player.x >= 108 and key==true then
 	mset(111,22,31)
 	mset(111,23,31)
